@@ -159,3 +159,8 @@ h1 {
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LINKS UTILIZADOS
+
+https://fonts.google.com/specimen/Varela+Round?preview.size=35&preview.text=Oficina%20Web&preview.text_type=custom
+https://fontawesome.com/icons/rocket?f=classic&s=solid
+https://cdnjs.com/libraries/font-awesome
