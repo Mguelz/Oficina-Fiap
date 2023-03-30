@@ -88,10 +88,10 @@ h1 {
     width: 80%; /* ocupado 80% da tela */
     margin: auto; /* automaticamente sera centralizado */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; /* espaço entre os elementos */
-    flex-wrap: wrap; /* quando a tela for menor nao estourar */
+    justify-content: center; /* centralizar verdicalmente */
+    align-items: center; /* centralizar horizontalmente */
+    gap: 10px; /* espaço interno entre os elementos */
+    flex-wrap: wrap; /* nao estourar a tela quando for menor */
 }
 
 .card-item{
