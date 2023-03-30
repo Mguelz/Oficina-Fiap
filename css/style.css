@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
+    color: #db143c;
+    font-size: 40px;
+    text-align: center; /* centralizar texto */
+    margin: 40px 0; /* margen superior e inferior */
+}
+
+.cards {
+    width: 80%; /* ocupado 80% da tela */
+    margin: auto; /* automaticamente sera centralizado */
+    display: flex;
+    justify-content: center; /* centralizar verdicalmente */
+    align-items: center; /* centralizar horizontalmente */
+    gap: 10px; /* espaço interno entre os elementos */
+    flex-wrap: wrap; /* nao estourar a tela quando for menor */
+}
+
+.card-item{
+    width: 30%;
+    border: 1px solid #db143c; 
+    border-radius: 5px; /* curva das bordas */
+    text-align: center; /* textos centralizados */
+    height: 350px; /* altura do card */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s; /* transição dos cards aparecerem */
+
+}
+
+.card-item:hover{
+    transform: scale(1.1); /* zoom ao passar o mouse em cima do card */
+}
+
+
+.icone{
+    font-size: 50px;
+    color: #db143c;
+    margin-bottom: 30px 0;
+    transition: .2s;
+}
+
+.icone:hover{
+    transform: rotate(360deg)
+}
+
+.card-item h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-item p{
+    font-weight: 500;
+    margin-bottom: 30px; /* distancia do texto pro botão do link */
+}
+
+.btn{
+    text-decoration: none;
+    border: 2px solid #db143c;
+    background-color: #db143c;
+    color: #afff;
+    font-weight: 800; /* negrito */
+    padding: 8px 30px; /* tamanho da borda */
+    border-radius: 70px; /* arredondando a borda */
+    transition: .2s; /* demora da transição ao passar o mouse */
+}
+
+.btn:hover{ /* ao passar o mouse */
+    background-color: transparent;
+    color: #db143c;
+}
+
+@media(max-width:500px){
+    .card-item{
+        width: 80%;
+    }
+}
